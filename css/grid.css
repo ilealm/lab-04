@@ -1,8 +1,9 @@
+/* GRID.CSS */
 body {
   width: 480px;
   margin: auto; /* this center evetything to the middle  */ 
   display:grid;
-  grid-template-columns: 240px 240px;
+  grid-template-columns: 1fr 1fr; /* 240px 240px; */
   grid-template-rows: 75px 150px 125px 125px 250px 250px 80px; 
 }
 
@@ -99,11 +100,7 @@ section:nth-child(8){
   grid-row-end: 7;
 }
 
-/* section:section:nth-child(6), section:nth-child(7), section:nth-child(8){
-  height: 250px;
-  line-height: 250px;
-  /* width: 50%; */
-/* } */ 
+
 
 /* I  */
 section:nth-child(9){
